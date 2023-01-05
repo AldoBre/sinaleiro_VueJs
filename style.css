@@ -1,0 +1,90 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.sinal{
+    width: 25rem;
+    border-radius: 5rem;
+    background-color:rgb(43, 40, 40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: auto;
+    
+}
+
+.bola{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.controle{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: rgb(48, 50, 51);
+    padding: 1rem;
+    border-radius:3rem ;
+}
+
+.controle button{
+    width: 10rem;
+    padding: 1rem;
+    background-color: rgb(9, 1, 129);
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    color: aliceblue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.controle button:hover{
+    background-color: aliceblue ;
+    color: rgb(9, 1, 129);;
+}
+h2{
+	color: #e4ebe4;
+    font-size: 2rem;
+}
+
+@media (max-width: 600px){
+
+    :root {
+        font-size: 40%;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
