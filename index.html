@@ -19,7 +19,7 @@
         <div class="controle">
             <h2>Controle do Semáfaro</h2>
             <button v-if="sinalStatus == 'red'" v-on:click="liberar">Liberar</button>
-            <button v-else-if="sinalStatus == 'green'" v-on:click="fechar">Fechar</button>
+            <button v-else-if="sinalStatus == 'green' || 'yellow' " v-on:click="fechar">Fechar</button>
         </div>
 
         <sinal v-bind:status="sinalStatus" />
